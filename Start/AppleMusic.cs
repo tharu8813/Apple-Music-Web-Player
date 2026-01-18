@@ -1,10 +1,10 @@
-﻿using AppleMusicProject.Tools;
+﻿using AppleMusicWebPlayer.Tools;
 using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace AppleMusicProject.Start {
+namespace AppleMusicWebPlayer.Start {
     public partial class AppleMusic : Form {
         int[] formSize = { 0, 0 };
         int[] formLocation = { 0, 0 };

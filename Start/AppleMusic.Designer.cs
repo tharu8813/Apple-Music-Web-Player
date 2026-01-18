@@ -1,4 +1,4 @@
-﻿namespace AppleMusicProject.Start {
+﻿namespace AppleMusicWebPlayer.Start {
     partial class AppleMusic {
         private System.ComponentModel.IContainer components = null;
 
@@ -67,7 +67,7 @@
             // 
             // appleMusicToolStripMenuItem
             // 
-            this.appleMusicToolStripMenuItem.Image = global::AppleMusicProject.Properties.Resources.icon;
+            this.appleMusicToolStripMenuItem.Image = global::AppleMusicWebPlayer.Properties.Resources.icon;
             this.appleMusicToolStripMenuItem.Name = "appleMusicToolStripMenuItem";
             this.appleMusicToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.appleMusicToolStripMenuItem.Text = "Apple Music";
@@ -272,7 +272,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = global::AppleMusicProject.Properties.Resources.download_removebg_preview;
+            this.pictureBox1.Image = global::AppleMusicWebPlayer.Properties.Resources.download_removebg_preview;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";

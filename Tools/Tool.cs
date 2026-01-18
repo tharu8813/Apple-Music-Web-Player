@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace AppleMusicProject.Tools {
+namespace AppleMusicWebPlayer.Tools {
     /// <summary>
     /// 여러가지 도구를 제공하는 클래스입니다.
     /// </summary>

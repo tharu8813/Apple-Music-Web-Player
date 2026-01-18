@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6E944B65-B1F2-45A0-804E-9DBB72363DB4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AppleMusicProject</RootNamespace>
-    <AssemblyName>AppleMusic</AssemblyName>
+    <RootNamespace>AppleMusicWebPlayer</RootNamespace>
+    <AssemblyName>AppleMusicWebPlayer</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
@@ -73,7 +73,7 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AppleMusicProject.Program</StartupObject>
+    <StartupObject>AppleMusicWebPlayer.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>

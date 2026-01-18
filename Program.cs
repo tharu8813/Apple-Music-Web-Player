@@ -1,11 +1,11 @@
-﻿using AppleMusicProject.Start;
+﻿using AppleMusicWebPlayer.Start;
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace AppleMusicProject {
+namespace AppleMusicWebPlayer {
     internal static class Program {
         private static Mutex mutex = null;
 
@@ -37,7 +37,7 @@ namespace AppleMusicProject {
         [STAThread]
         static void Main() {
             bool isNewInstance;
-            string mutexName = "AppleMusicProjectMutex"; // 고유한 프로그램 이름
+            string mutexName = "AppleMusicWebPlayerMutex"; // 고유한 프로그램 이름
             mutex = new Mutex(true, mutexName, out isNewInstance);
 
             if (!isNewInstance) {
