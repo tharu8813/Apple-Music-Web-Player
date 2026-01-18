@@ -20,12 +20,12 @@ namespace AppleMusicProject.Tools {
         public enum ExitReason {
             닫기,
             확인,
-            백그라운드실행
+            백그라운드실행,
+            물어보기
         }
 
         public enum TopControl {
             항상표시,
-            오버시표시,
             표시하지않음
         }
 

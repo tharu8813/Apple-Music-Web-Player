@@ -3,10 +3,13 @@
   <Profiles />
   <Settings>
     <Setting Name="ExitOption" Type="System.String" Scope="User">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)">Ask</Value>
     </Setting>
-    <Setting Name="TapShow" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
+    <Setting Name="TapShow" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AlwaysShow</Value>
+    </Setting>
+    <Setting Name="MinimizeOption" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Background</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -23,7 +23,6 @@
             this.항상위에표시ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.상탄컨트롤바상시표시ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.항상표시ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.마우스를올리면표시ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.숨기기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.종료ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.종료시프로그램종료ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,6 +62,7 @@
             this.toolStripSeparator2,
             this.ㅈToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.contextMenuStrip1.Size = new System.Drawing.Size(142, 126);
             // 
             // appleMusicToolStripMenuItem
@@ -99,7 +99,7 @@
             this.종료ToolStripMenuItem,
             this.최소화설정ToolStripMenuItem});
             this.설정ToolStripMenuItem.Name = "설정ToolStripMenuItem";
-            this.설정ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.설정ToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.설정ToolStripMenuItem.Text = "설정";
             // 
             // 항상위에표시ToolStripMenuItem
@@ -114,7 +114,6 @@
             // 
             this.상탄컨트롤바상시표시ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.항상표시ToolStripMenuItem,
-            this.마우스를올리면표시ToolStripMenuItem,
             this.숨기기ToolStripMenuItem});
             this.상탄컨트롤바상시표시ToolStripMenuItem.Name = "상탄컨트롤바상시표시ToolStripMenuItem";
             this.상탄컨트롤바상시표시ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
@@ -123,19 +122,13 @@
             // 항상표시ToolStripMenuItem
             // 
             this.항상표시ToolStripMenuItem.Name = "항상표시ToolStripMenuItem";
-            this.항상표시ToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.항상표시ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.항상표시ToolStripMenuItem.Text = "항상 표시";
-            // 
-            // 마우스를올리면표시ToolStripMenuItem
-            // 
-            this.마우스를올리면표시ToolStripMenuItem.Name = "마우스를올리면표시ToolStripMenuItem";
-            this.마우스를올리면표시ToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.마우스를올리면표시ToolStripMenuItem.Text = "마우스를 올리면 표시";
             // 
             // 숨기기ToolStripMenuItem
             // 
             this.숨기기ToolStripMenuItem.Name = "숨기기ToolStripMenuItem";
-            this.숨기기ToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.숨기기ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.숨기기ToolStripMenuItem.Text = "숨기기";
             // 
             // 종료ToolStripMenuItem
@@ -206,7 +199,6 @@
             this.notifyIcon1.Text = "Apple Music";
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.DoubleClick += new System.EventHandler(this.NotifyIcon_DoubleClick);
-            this.notifyIcon1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseClick);
             // 
             // panel1
             // 
@@ -354,6 +346,7 @@
             this.Padding = new System.Windows.Forms.Padding(5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Apple Music";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.webView21_KeyDown);
             this.contextMenuStrip1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -375,7 +368,6 @@
         private System.Windows.Forms.ToolStripMenuItem 항상위에표시ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 상탄컨트롤바상시표시ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 항상표시ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 마우스를올리면표시ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 숨기기ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 종료ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 종료시프로그램종료ToolStripMenuItem;

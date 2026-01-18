@@ -25,7 +25,7 @@ namespace AppleMusicProject.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Ask")]
         public string ExitOption {
             get {
                 return ((string)(this["ExitOption"]));
@@ -37,13 +37,25 @@ namespace AppleMusicProject.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool TapShow {
+        [global::System.Configuration.DefaultSettingValueAttribute("AlwaysShow")]
+        public string TapShow {
             get {
-                return ((bool)(this["TapShow"]));
+                return ((string)(this["TapShow"]));
             }
             set {
                 this["TapShow"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Background")]
+        public string MinimizeOption {
+            get {
+                return ((string)(this["MinimizeOption"]));
+            }
+            set {
+                this["MinimizeOption"] = value;
             }
         }
     }
