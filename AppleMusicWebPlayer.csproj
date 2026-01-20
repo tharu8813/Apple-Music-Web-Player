@@ -136,6 +136,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="LICENSE" />
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -153,6 +154,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="apple-music_icon.ico" />
+    <Content Include="setup.iss" />
+    <None Include="README.md" />
     <None Include="Resources\download-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
