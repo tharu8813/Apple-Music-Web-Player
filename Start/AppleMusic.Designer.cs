@@ -272,7 +272,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = global::AppleMusicWebPlayer.Properties.Resources.download_removebg_preview;
+            this.pictureBox1.Image = global::AppleMusicWebPlayer.Properties.Resources.icon;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";

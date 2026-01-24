@@ -5,7 +5,7 @@
 ; ============================================================================
 
 #define MyAppName "Apple Music Web Player"
-#define MyAppVersion "2.0.0.0"
+#define MyAppVersion "2.0.0.1"
 #define MyAppPublisher "Ji Beak min(tharu8813)"
 #define MyAppCopyright "© 2024-2026 Ji Beak min(tharu8813). All rights reserved."
 #define MyAppURL "https://github.com/tharu8813"
@@ -14,7 +14,7 @@
 
 ; 선택적 설정 (필요시 수정)
 #define SourcePath "bin\Release"
-#define SetupIconPath "apple-music_icon.ico"
+#define SetupIconPath "icon.ico"
 #define LicenseFilePath ""  ; 라이센스 파일 경로 (예: "license.txt")
 #define ReadmeFilePath ""   ; Readme 파일 경로 (예: "readme.txt")
 
